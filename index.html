@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ML Logistics Nig. | Delivery, Dispatch and Transportation Services</title>
+<meta name="description" content="ML Logistics Nig. provides reliable delivery, dispatch and transportation services in Ikoyi, Victoria Island, Lagos and across Nigeria.">
+<style>* {  box-sizing: border-box;  margin: 0;  padding: 0;}
+html {  scroll-behavior: smooth;}
+body {  font-family: Arial, Helvetica, sans-serif;  color: #172033;  line-height: 1.6;  background: #ffffff;}
+a {  text-decoration: none;  color: inherit;}
+.container {  width: 92%;  max-width: 1150px;  margin: auto;}
+/* HEADER */
+header {  background: #ffffff;  border-bottom: 1px solid #e7e9ee;  position: sticky;  top: 0;  z-index: 1000;}
+.navbar {  min-height: 74px;  display: flex;  align-items: center;  justify-content: space-between;}
+.logo {  display: flex;  align-items: center;  gap: 10px;}
+.logo-box {  width: 42px;  height: 42px;  background: #0b2342;  color: #e0b42f;  display: grid;  place-items: center;  font-weight: bold;  border-radius: 8px;}
+.logo-text strong {  display: block;  color: #0b2342;  font-size: 16px;}
+.logo-text small {  color: #777;  font-size: 9px;  text-transform: uppercase;  letter-spacing: 1px;}
+nav {  display: flex;  gap: 24px;  align-items: center;  font-size: 14px;  font-weight: bold;}
+nav a:hover {  color: #c99716;}
+.nav-button {  background: #0b2342;  color: white !important;  padding: 10px 16px;  border-radius: 6px;}
+/* HERO */
+.hero {  background: linear-gradient(135deg, #071b33, #12365e);  color: white;  padding: 90px 0;}
+.hero-grid {  display: grid;  grid-template-columns: 1.2fr 0.8fr;  gap: 60px;  align-items: center;}
+.eyebrow {  color: #e0b42f;  font-size: 12px;  font-weight: bold;  letter-spacing: 2px;  margin-bottom: 15px;}
+.hero h1 {  font-size: clamp(40px, 6vw, 68px);  line-height: 1.05;  margin-bottom: 22px;}
+.hero h1 span {  display: block;  font-size: clamp(23px, 3vw, 35px);  margin-top: 15px;  color: #f4f6f9;}
+.hero p {  color: #d4deea;  max-width: 680px;  font-size: 17px;}
+.buttons {  display: flex;  gap: 12px;  flex-wrap: wrap;  margin-top: 30px;}
+.btn {  padding: 14px 20px;  border-radius: 6px;  font-weight: bold;  display: inline-block;}
+.btn-gold {  background: #e0b42f;  color: #111;}
+.btn-white {  border: 1px solid rgba(255,255,255,.5);  color: white;}
+.hero-card {  border: 1px solid rgba(255,255,255,.18);  border-radius: 18px;  padding: 30px;  background: rgba(255,255,255,.08);}
+.hero-card h2 {  font-size: 30px;  line-height: 1.2;  margin: 15px 0;}
+.vehicle-list {  display: flex;  flex-wrap: wrap;  gap: 8px;  margin-top: 22px;}
+.vehicle-list span {  border: 1px solid rgba(255,255,255,.25);  padding: 7px 12px;  border-radius: 30px;  font-size: 12px;}
+/* SECTIONS */
+section {  padding: 85px 0;}
+.section-title {  max-width: 700px;  margin-bottom: 45px;}
+.section-title h2 {  font-size: clamp(30px, 4vw, 46px);  line-height: 1.15;  margin-bottom: 15px;}
+.section-title p {  color: #667085;}
+/* SERVICES */
+.services {  display: grid;  grid-template-columns: repeat(3, 1fr);  gap: 18px;}
+.card {  border: 1px solid #e4e7ec;  border-radius: 12px;  padding: 28px;  transition: .2s;}
+.card:hover {  transform: translateY(-4px);  box-shadow: 0 15px 35px rgba(0,0,0,.08);}
+.card-icon {  width: 40px;  height: 40px;  background: #fff6d9;  color: #9a7410;  display: grid;  place-items: center;  border-radius: 8px;  margin-bottom: 18px;  font-weight: bold;}
+.card h3 {  margin-bottom: 9px;}
+.card p {  color: #667085;  font-size: 14px;}
+/* WHY US */
+.dark {  background: #0b2342;  color: white;}
+.dark p {  color: #c5d0dd;}
+.why-grid {  display: grid;  grid-template-columns: 1fr 1fr;  gap: 70px;}
+.points {  display: grid;  gap: 20px;}
+.point {  border-bottom: 1px solid rgba(255,255,255,.15);  padding-bottom: 18px;}
+.point strong {  display: block;  margin-bottom: 4px;}
+.point span {  color: #b9c5d3;  font-size: 14px;}
+/* AREAS */
+.area-grid {  display: grid;  grid-template-columns: 1fr 1fr;  gap: 70px;  align-items: center;}
+.tags {  display: flex;  flex-wrap: wrap;  gap: 10px;}
+.tags span {  border: 1px solid #e0e4ea;  padding: 9px 14px;  border-radius: 30px;  font-size: 13px;}
+/* PROCESS */
+.process {  background: #f7f8fa;}
+.steps {  display: grid;  grid-template-columns: repeat(4, 1fr);  gap: 25px;}
+.step-number {  width: 38px;  height: 38px;  border-radius: 50%;  background: #0b2342;  color: #e0b42f;  display: grid;  place-items: center;  font-weight: bold;  margin-bottom: 15px;}
+.steps p {  color: #667085;  font-size: 14px;}
+/* CTA */
+.cta {  background: #f3eedf;}
+.cta-inner {  display: flex;  align-items: center;  justify-content: space-between;  gap: 30px;}
+.cta h2 {  font-size: clamp(30px, 4vw, 45px);  line-height: 1.15;}
+.cta p {  color: #667085;  margin-top: 10px;}
+/* CONTACT */
+.contact-grid {  display: grid;  grid-template-columns: 1fr .8fr;  gap: 70px;  align-items: center;}
+.contact-box {  border: 1px solid #e4e7ec;  border-radius: 12px;  overflow: hidden;}
+.contact-box a {  display: block;  padding: 20px;  border-bottom: 1px solid #e4e7ec;}
+.contact-box a:last-child {  border-bottom: none;}
+.contact-box small {  display: block;  color: #777;  font-size: 10px;  letter-spacing: 1px;}
+.contact-box strong {  color: #0b2342;}
+/* FOOTER */
+footer {  background: #06172c;  color: #b9c5d3;  padding: 30px 0;  font-size: 13px;}
+.footer-inner {  display: flex;  justify-content: space-between;  gap: 20px;}
+.footer-inner strong {  color: white;}
+/* MOBILE */
+@media (max-width: 800px) {
+  nav {    display: none;  }
+  .hero {    padding: 65px 0;  }
+  .hero-grid,  .why-grid,  .area-grid,  .contact-grid {    grid-template-columns: 1fr;    gap: 40px;  }
+  .services {    grid-template-columns: repeat(2, 1fr);  }
+  .steps {    grid-template-columns: repeat(2, 1fr);  }
+  .cta-inner {    display: block;  }
+  .cta .btn {    margin-top: 20px;  }}
+@media (max-width: 520px) {
+  .services,  .steps {    grid-template-columns: 1fr;  }
+  .hero h1 {    font-size: 39px;  }
+  .hero h1 span {    font-size: 23px;  }
+  section {    padding: 65px 0;  }
+  .footer-inner {    display: block;  }}</style></head>
+<body>
+<header>  <div class="container navbar">
+    <a href="#home" class="logo">      <div class="logo-box">ML</div>      <div class="logo-text">        <strong>ML Logistics Nig.</strong>        <small>Secure. Fast. Reliable.</small>      </div>    </a>
+    <nav>      <a href="#home">Home</a>      <a href="#services">Services</a>      <a href="#why-us">Why Us</a>      <a href="#areas">Service Areas</a>      <a href="#contact">Contact</a>      <a class="nav-button" href="https://wa.me/2348077295101" target="_blank">WhatsApp</a>    </nav>
+  </div></header>
+<main>
+<section class="hero" id="home">  <div class="container hero-grid">
+    <div>      <div class="eyebrow">LAGOS LOGISTICS • DELIVERY • DISPATCH</div>
+      <h1>        ML Logistics Nig.        <span>Delivery, Dispatch and Transportation Services</span>      </h1>
+      <p>        Reliable logistics solutions for individuals, businesses and corporate clients.        From everyday dispatch and deliveries to bulky transportation and relocation,        we help move what matters safely and efficiently.      </p>
+      <div class="buttons">        <a class="btn btn-gold"           href="https://wa.me/2348077295101?text=Hello%20ML%20Logistics%2C%20I%20would%20like%20to%20request%20a%20delivery%20quote."           target="_blank">          Get a Delivery Quote        </a>
+        <a class="btn btn-white" href="tel:+2348077295101">          Call 08077295101        </a>      </div>    </div>
+    <div class="hero-card">      <div class="eyebrow">LOGISTICS SOLUTIONS</div>      <h2>From a single parcel to larger transportation needs.</h2>      <p>        We provide practical logistics solutions based on the size,        destination and nature of your requirement.      </p>
+      <div class="vehicle-list">        <span>Bike Dispatch</span>        <span>Van</span>        <span>Bus</span>        <span>Truck</span>      </div>    </div>
+  </div></section>
+<section id="services">  <div class="container">
+    <div class="section-title">      <div class="eyebrow">OUR SERVICES</div>      <h2>Logistics services designed around your needs.</h2>      <p>        Professional transportation and delivery support for individuals,        SMEs, e-commerce businesses, offices and corporate clients.      </p>    </div>
+    <div class="services">
+      <div class="card">        <div class="card-icon">↗</div>        <h3>Delivery Services</h3>        <p>Reliable delivery of parcels, products, documents and goods across Lagos.</p>      </div>
+      <div class="card">        <div class="card-icon">◎</div>        <h3>Dispatch Services</h3>        <p>Local and last-mile dispatch solutions for businesses and individuals.</p>      </div>
+      <div class="card">        <div class="card-icon">▣</div>        <h3>Transportation</h3>        <p>Vehicle-based transportation for goods, items and planned logistics movements.</p>      </div>
+      <div class="card">        <div class="card-icon">▰</div>        <h3>Bulky Goods Delivery</h3>        <p>Transportation for larger, heavier or multiple items requiring suitable vehicles.</p>      </div>
+      <div class="card">        <div class="card-icon">▱</div>        <h3>Moving & Relocation</h3>        <p>Home and office relocation support with practical vehicle options.</p>      </div>
+      <div class="card">        <div class="card-icon">◆</div>        <h3>Van Hire</h3>        <p>Vehicle solutions for businesses, events, filming and transportation requirements.</p>      </div>
+    </div>  </div></section>
+<section class="dark" id="why-us">  <div class="container why-grid">
+    <div>      <div class="eyebrow">WHY ML LOGISTICS</div>      <h2>Reliable transportation for everyday and business needs.</h2>      <p style="margin-top:18px;">        We focus on clear communication, suitable vehicle selection,        careful handling and practical delivery coordination.      </p>    </div>
+    <div class="points">
+      <div class="point">        <strong>Reliable Service</strong>        <span>Clear pickup, delivery and communication processes.</span>      </div>
+      <div class="point">        <strong>Right Vehicle for the Job</strong>        <span>Bike, van, bus or truck depending on your requirement.</span>      </div>
+      <div class="point">        <strong>Business-Friendly Solutions</strong>        <span>Flexible logistics support for SMEs, offices and corporate clients.</span>      </div>
+      <div class="point">        <strong>Direct Communication</strong>        <span>Request a quote and coordinate your delivery through WhatsApp.</span>      </div>
+    </div>  </div></section>
+<section id="areas">  <div class="container area-grid">
+    <div>      <div class="eyebrow">SERVICE AREAS</div>      <h2>Serving Lagos and supporting nationwide delivery.</h2>
+      <p style="color:#667085;margin-top:15px;">        We provide logistics services across Lagos, with particular focus        on Ikoyi, Victoria Island and Lagos Island, while supporting        other Lagos routes and nationwide transportation requirements.      </p>    </div>
+    <div class="tags">      <span>Ikoyi</span>      <span>Victoria Island</span>      <span>Lagos Island</span>      <span>Marina</span>      <span>Ajah</span>      <span>Chevron</span>      <span>Surulere</span>      <span>Lagos-wide</span>      <span>Nationwide</span>    </div>
+  </div></section>
+<section class="process">  <div class="container">
+    <div class="section-title">      <div class="eyebrow">HOW IT WORKS</div>      <h2>Simple from request to delivery.</h2>    </div>
+    <div class="steps">
+      <div>        <div class="step-number">1</div>        <h3>Tell us what you need</h3>        <p>Share your pickup, destination, item and preferred timing.</p>      </div>
+      <div>        <div class="step-number">2</div>        <h3>Get your quote</h3>        <p>We assess the requirement and provide a suitable logistics option.</p>      </div>
+      <div>        <div class="step-number">3</div>        <h3>We move it</h3>        <p>The appropriate vehicle or dispatch option handles the movement.</p>      </div>
+      <div>        <div class="step-number">4</div>        <h3>Delivery completed</h3>        <p>Your item reaches its destination with coordinated communication.</p>      </div>
+    </div>  </div></section>
+<section class="cta">  <div class="container cta-inner">
+    <div>      <div class="eyebrow">READY TO MOVE?</div>      <h2>Let's handle your next delivery.</h2>      <p>Tell us what you need transported and request a quote.</p>    </div>
+    <a class="btn btn-gold"       href="https://wa.me/2348077295101?text=Hello%20ML%20Logistics%2C%20I%20need%20a%20quote."       target="_blank">      Chat on WhatsApp    </a>
+  </div></section>
+<section id="contact">  <div class="container contact-grid">
+    <div>      <div class="eyebrow">CONTACT ML LOGISTICS</div>
+      <h2>Let's discuss your logistics requirement.</h2>
+      <p style="color:#667085;margin-top:15px;">        For delivery, dispatch, transportation, relocation,        van hire or corporate logistics enquiries, contact us directly.      </p>    </div>
+    <div class="contact-box">
+      <a href="tel:+2348077295101">        <small>PHONE</small>        <strong>08077295101</strong>      </a>
+      <a href="mailto:mleadsenterprise@gmail.com">        <small>EMAIL</small>        <strong>mleadsenterprise@gmail.com</strong>      </a>
+      <a href="https://wa.me/2348077295101" target="_blank">        <small>WHATSAPP</small>        <strong>Chat with ML Logistics</strong>      </a>
+    </div>
+  </div></section>
+</main>
+<footer>  <div class="container footer-inner">    <div>      <strong>ML Logistics Nig.</strong>      <div>Delivery, Dispatch and Transportation Services</div>    </div>
+    <div>      © 2026 ML Logistics Nig. A subsidiary of ML Enterprise.    </div>  </div></footer>
+</body></html>
