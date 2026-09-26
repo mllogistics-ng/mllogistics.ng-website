@@ -1,0 +1,9 @@
+{
+  "name": "ML Logistics",
+  "short_name": "ML Logistics",
+  "start_url": "/mllogistics.ng-website/",
+  "display": "standalone",
+  "description": "Delivery, Dispatch & Moving Services.",
+  "background_color": "#071a36",
+  "theme_color": "#071a36"
+}
